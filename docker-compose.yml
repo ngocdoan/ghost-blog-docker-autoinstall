@@ -18,7 +18,8 @@ services:
       database__connection__password: password
       database__connection__database: ghost
       # this url value is just an example, and is likely wrong for your environment!
-      url: http://192.168.100.47:8080
+      url: http://localhost:8080
+      ## edit your owl url here ##
       # contrary to the default mentioned in the linked documentation, this image defaults to NODE_ENV=production (so development mode needs to be explicitly specified if desired)
       #NODE_ENV: development
     volumes:
